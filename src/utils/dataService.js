@@ -1,7 +1,7 @@
 import * as XLSX from 'xlsx';
 
 export const fetchData = async () => {
-  const response = await fetch('../../public/consumerData.xlsx'); 
+  const response = await fetch('../consumerData.xlsx'); 
   const arrayBuffer = await response.arrayBuffer();
   const data = new Uint8Array(arrayBuffer);
   const workbook = XLSX.read(data, { type: 'array' });
