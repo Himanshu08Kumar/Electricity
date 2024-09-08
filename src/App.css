@@ -1,0 +1,101 @@
+/* App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.edit-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.edit-container h3 {
+  margin-top: 0;
+}
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="date"] {
+  margin: 0 10px;
+}
+
+button, .ant-btn {
+  background-color: #168aad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+button:hover, .ant-btn:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  margin: 20px 0;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.ant-table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+}
+
+.ant-table-tbody > tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.ant-table-tbody > tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.ant-spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+  text-align: center;
+  
+}
